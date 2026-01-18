@@ -1,0 +1,5 @@
+avg_sales_australia = CALCULATE(AVERAGE('Working sheet'[sales]),'Working sheet'[country]="Australia")
+
+avg_sales_uk = CALCULATE(AVERAGE('Working sheet'[sales]),'Working sheet'[country]="UK")
+
+Total Orders = COUNT('Working sheet'[quantity_ordered])
